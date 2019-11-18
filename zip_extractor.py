@@ -10,3 +10,4 @@ def extractor(b,c):
         zf = zipfile.ZipFile(arc_name)
         zf.extractall(path=os.path.join(dir_name_base1, arc_dir_name))
         zf.close()
+ extractor(path1,path2)
